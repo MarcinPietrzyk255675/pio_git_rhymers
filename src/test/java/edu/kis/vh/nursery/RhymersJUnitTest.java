@@ -1,5 +1,5 @@
 package edu.kis.vh.nursery;
-
+// Stan na punkt 15. - projekt jest poprawny
 import org.junit.Assert;
 import org.junit.Test;
 
