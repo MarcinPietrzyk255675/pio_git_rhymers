@@ -8,6 +8,7 @@ public class DefaultCountingOutRhymer {
     private final int EMPTY = -1;
     private final int CAPACITY = 12;
     private final int DEFAULT_VALUE = -1;
+    // TODO: Rozważyć użycie wyjątków zamiast zwracania -1
 
 
     private final int[] numbers = new int[CAPACITY];

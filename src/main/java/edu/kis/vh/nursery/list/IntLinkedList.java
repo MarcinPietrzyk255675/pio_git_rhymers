@@ -3,8 +3,10 @@ package edu.kis.vh.nursery.list;
 public class IntLinkedList {
     private final int TOP_ERROR= -1;
     private final int POP_ERROR = -1;
+    // TODO: Rozważyć użycie wyjątków zamiast zwracania -1
     private Node last;
     private int i;
+    // TODO: Rozważyć usunięcie atrybutu i, w chwili obecnej jest nieużywany
 
     public void push(int i) {
         if (last == null)
@@ -20,6 +22,7 @@ public class IntLinkedList {
         return last == null;
     }
 
+    // TODO: Rozważyć zmianę implementacji tej metody albo jej usunięcie, gdyż zawsze zwraca false
     public boolean isFull() {
         return false;
     }
